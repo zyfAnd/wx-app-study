@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/latest/latest",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "GiftStroy",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": "true"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#56abe4",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/latest/latest",
+        "text": "",
+        "iconPath": "images/latest.png",
+        "selectedIconPath": "images/lastest_on.png"
+      },
+      {
+        "pagePath": "pages/latest/latest",
+        "text": "",
+        "iconPath": "images/hotest.png",
+        "selectedIconPath": "images/hotest_on.png"
+      }
+    ]
+  }
+}
