@@ -1,12 +1,12 @@
 {
   "pages": [
-    "pages/latest/latest",
-    "pages/detail/detail"
+    "pages/girl/girl",
+    "pages/boy/boy"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "GiftStroy",
+    "navigationBarTitleText": "GiftStory",
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": "true"
   },
@@ -17,14 +17,14 @@
     "borderStyle": "white",
     "list": [
       {
-        "pagePath": "pages/latest/latest",
-        "text": "",
+        "pagePath": "pages/girl/girl",
+        "text": "Girl",
         "iconPath": "images/latest.png",
         "selectedIconPath": "images/lastest_on.png"
       },
       {
-        "pagePath": "pages/latest/latest",
-        "text": "",
+        "pagePath": "pages/boy/boy",
+        "text": "Boy",
         "iconPath": "images/hotest.png",
         "selectedIconPath": "images/hotest_on.png"
       }
